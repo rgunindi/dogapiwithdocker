@@ -1,6 +1,6 @@
 serenity screenplay with docker example:
 build it project:
-```docker
+```bash
 docker build . -t dogapiv1 
 ```
 
