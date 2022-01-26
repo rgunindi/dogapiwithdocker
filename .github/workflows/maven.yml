@@ -33,7 +33,7 @@ jobs:
       uses: docker/build-push-action@v2
       with:
           push: true
-          image: mycodhesap/dogapi:tagname
+          tags: mycodhesap/dogapi:tagname
           registry: docker.io
           secrets: |
             GIT_AUTH_TOKEN=${{ secrets.MYTOKEN }}
