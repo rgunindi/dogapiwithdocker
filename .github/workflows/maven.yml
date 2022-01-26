@@ -24,3 +24,13 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: Build and Push Docker Image
+      uses: docker/build-push-action@v2
+      with:
+          push: true
+          image: mycodhesap/dogapi
+          registry: docker.io
+          secrets: |
+            GIT_AUTH_TOKEN=${{ secrets.MYTOKEN }}
+#           tags: user/app:latest
+            
