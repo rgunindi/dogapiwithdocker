@@ -1,0 +1,222 @@
+repo_name: rgunindi/dogapiwithdocker
+report_id: 4b514cc5b460e0ecd842ef49ce1c3330
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:57:34+00:00'
+requested_by: rgunindi
+provider: github
+branch: main
+detected_tools_count: 16
+tools:
+- name: Gherkin
+  description: A plain-text language with a simple structure
+  website_url: https://cucumber.io/docs/gherkin/reference/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2460/default_aff27c02548fadb1b7e6f85a2b0da1c5dca5cc08.png
+  detection_source_url: https://github.com/rgunindi/dogapiwithdocker
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/rgunindi/dogapiwithdocker
+  detection_source: Repo Metadata
+- name: Apache Maven
+  description: Apache build manager for Java projects.
+  website_url: http://maven.apache.org/
+  version: 3.8.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/package_manager/977/default_9833f2ef0bbc2a946b4cc5e9307264033361076b.png
+  detection_source_url: https://github.com/rgunindi/dogapiwithdocker/blob/main/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Ramazan
+  last_updated_on: 2022-01-08 00:28:20.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/rgunindi/dogapiwithdocker
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rgunindi/dogapiwithdocker
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/rgunindi/dogapiwithdocker/blob/main/.github/workflows/maven.yml
+  detection_source: ".github/workflows/maven.yml"
+  last_updated_by: Ramazan
+  last_updated_on: 2022-01-26 20:56:19.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: 4.13.1
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/rgunindi/dogapiwithdocker/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Ramazan
+  last_updated_on: 2022-01-08 00:28:20.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/rgunindi/dogapiwithdocker/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Ramazan
+  last_updated_on: 2022-01-08 00:28:20.000000000 Z
+- name: ch.qos.logback:logback-classic
+  description: Logback-classic module
+  version: 1.2.3
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rgunindi/dogapiwithdocker/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Ramazan
+  last_updated_on: 2022-01-08 00:28:20.000000000 Z
+  vulnerabilities:
+  - name: logback serialization vulnerability
+    cve_id: CVE-2023-6378
+    cve_url: https://github.com/advisories/GHSA-vmq6-5m68-f53m
+    detected_date: Nov 30
+    severity: high
+    first_patched: 1.2.13
+- name: io.rest-assured:rest-assured
+  description: Java DSL for easy testing of REST services
+  version: 4.3.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rgunindi/dogapiwithdocker/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Ramazan
+  last_updated_on: 2022-01-08 00:28:20.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: 4.13.1
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rgunindi/dogapiwithdocker/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Ramazan
+  last_updated_on: 2022-01-08 00:28:20.000000000 Z
+- name: net.serenity-bdd:serenity-core
+  description: Serenity core libraries
+  version: 2.4.51
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rgunindi/dogapiwithdocker/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Ramazan
+  last_updated_on: 2022-01-08 00:28:20.000000000 Z
+- name: org.assertj:assertj-core
+  description: Rich and fluent assertions for testing for Java
+  version: 3.6.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rgunindi/dogapiwithdocker/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Ramazan
+  last_updated_on: 2022-01-08 00:28:20.000000000 Z
+- name: org.codehaus.groovy:groovy
+  description: 'Groovy: A powerful, dynamic language for the JVM'
+  version: 3.0.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rgunindi/dogapiwithdocker/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Ramazan
+  last_updated_on: 2022-01-08 00:28:20.000000000 Z
+  vulnerabilities:
+  - name: Information Disclosure in Apache Groovy
+    cve_id: CVE-2020-17521
+    cve_url: https://github.com/advisories/GHSA-rcjj-h6gh-jf3r
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.0.7
+- name: org.codehaus.groovy:groovy-xml
+  description: 'Groovy: A powerful, dynamic language for the JVM'
+  version: 3.0.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rgunindi/dogapiwithdocker/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Ramazan
+  last_updated_on: 2022-01-08 00:28:20.000000000 Z
+- name: org.hamcrest:hamcrest
+  description: Core API and libraries of hamcrest matcher framework
+  version: '2.2'
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rgunindi/dogapiwithdocker/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Ramazan
+  last_updated_on: 2022-01-08 00:28:20.000000000 Z
